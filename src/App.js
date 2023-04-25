@@ -1,20 +1,19 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+import { SafeAreaView, StyleSheet } from "react-native";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Lanterna frontal!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+import Primeiro from "./components/Primeiro";
+
+export default () => (
+  <SafeAreaView style={styles.container}>
+    <Primeiro />
+  </SafeAreaView>
+);
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#ffffff",
-    color: "#f8f8f2",
+    backgroundColor: "#afafaf",
     alignItems: "center",
     justifyContent: "center",
   },
