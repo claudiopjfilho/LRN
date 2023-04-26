@@ -1,20 +1,21 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { SafeAreaView, StyleSheet } from "react-native";
+import { View, StyleSheet } from "react-native";
 
 import Primeiro from "./components/Primeiro";
 
 export default () => (
-  <SafeAreaView style={styles.container}>
+  <View style={styles.container}>
     <Primeiro />
-  </SafeAreaView>
+  </View>
 );
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#afafaf",
+    backgroundColor: "#adadaf",
     alignItems: "center",
     justifyContent: "center",
+    padding: 30,
   },
 });

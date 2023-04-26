@@ -6,7 +6,7 @@ import estilo from "./estilo";
 export default function App() {
   return (
     <SafeAreaView>
-      <Text style={estilo.txtG}>Lanterna frontal!</Text>
+      <Text style={estilo.txtG}>Eis aqui uma frase!</Text>
     </SafeAreaView>
   );
 }
