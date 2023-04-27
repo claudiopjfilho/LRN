@@ -6,6 +6,7 @@ import Primeiro from "./components/Primeiro";
 
 export default () => (
   <View style={styles.container}>
+    <Primeiro min={3} max={20} />
     <Primeiro min="3" max="20" />
   </View>
 );
