@@ -6,14 +6,14 @@ import Primeiro from "./components/Primeiro";
 
 export default () => (
   <View style={styles.container}>
-    <Primeiro />
+    <Primeiro min="3" max="20" />
   </View>
 );
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#adadaf",
+    backgroundColor: "#adfdff",
     alignItems: "center",
     justifyContent: "center",
     padding: 30,
