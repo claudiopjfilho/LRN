@@ -2,20 +2,26 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-import Primeiro from "./components/Primeiro";
-import aleatorio from "./components/aleatorio";
+//import Primeiro from "./components/Primeiro";
+//import Aleatorio from "./components/Aleatorio";
+import Titulo from "./components/Titulo";
 export default () => (
   <View style={styles.container}>
-    <Primeiro min={3} max={20} />
+    {/*<Primeiro min={3} max={20} />
     <Primeiro min="3" max="20" />
-    <Aleatorio min="3" max="20" />
+    <Aleatorio min={1} max={90} />
+    <Aleatorio min={1} max={90} />
+    <Aleatorio min={1} max={90} />
+    <Aleatorio min={1} max={90} />
+    <Aleatorio min={1} max={90} />*/}
+    <Titulo principal="Primeiro" secundario="Segundo" />
   </View>
 );
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#adfdff",
+    backgroundColor: "#474a51",
     alignItems: "center",
     justifyContent: "center",
     padding: 30,

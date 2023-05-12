@@ -1,13 +1,10 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { View, StyleSheet } from "react-native";
+import { View, StyleSheet, Text } from "react-native";
 import estilo from "./Estilo";
 
 export default props => {
-  const Aleatorio = 10;
-  return (
-    <Text style={estilo.txtG}>
-      O mínimo é {props.min} e o máximo é {props.max}{" "}
-    </Text>
-  );
+  const delta = props.max - props.min + 1;
+  const aleatorio = parseInt(Math.random() * delta) + props.min;
+  return <Text style={estilo.txtG}>O valor aleatório é {aleatorio}</Text>;
 };
