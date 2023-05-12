@@ -1,6 +1,5 @@
 import React from "react";
 import { View, Text } from "react-native";
-import estilo from "./Estilo";
 import Estilo from "./Estilo";
 
 export default props => {
