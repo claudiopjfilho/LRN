@@ -3,11 +3,12 @@ import React from "react";
 import { View, StyleSheet } from "react-native";
 
 import Primeiro from "./components/Primeiro";
-
+import aleatorio from "./components/aleatorio";
 export default () => (
   <View style={styles.container}>
     <Primeiro min={3} max={20} />
     <Primeiro min="3" max="20" />
+    <Aleatorio min="3" max="20" />
   </View>
 );
 
