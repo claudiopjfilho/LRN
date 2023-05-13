@@ -6,11 +6,15 @@ import { View, StyleSheet } from "react-native";
 //import Aleatorio from "./components/Aleatorio";
 import Titulo from "./components/Titulo";
 import Botao from "./components/Botao";
+import Contador from "./components/Contador";
+
 export default () => (
   <View style={styles.container}>
-    <Botao />
-
+    <Contador inicial={10} />
+    <Contador inicial={20} passo={20} />
     {/*
+    <Contador Numero={3} />
+    <Botao />
     <Primeiro min={3} max={20} />
     <Primeiro min="3" max="20" />
     <Aleatorio min={1} max={90} />
