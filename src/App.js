@@ -11,13 +11,12 @@ import Pai from "./components/Indireta/Pai";
 
 export default () => (
   <View style={styles.container}>
+    <Pai />
     {/*
     <Contador inicial={10} />
     <Contador inicial={20} passo={20} />
     <Contador inicial={3} />
-
     <Pai />
-
     <Botao />
     <Primeiro min={3} max={20} />
     <Primeiro min="3" max="20" />
