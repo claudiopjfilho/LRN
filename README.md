@@ -1,1 +1,1 @@
-Learn React Native
+Repositório para armazenar meus estudos em React Native
