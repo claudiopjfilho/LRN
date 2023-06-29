@@ -1,7 +1,8 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import Pai from "./components/Indireta/Pai";
+import ContadorV2 from "./components/contador/ContadorV2";
+//import Pai from "./components/Indireta/Pai";
 //import Pai from "./components/Direta/Pai";
 //import Primeiro from "./components/Primeiro";
 //import Aleatorio from "./components/Aleatorio";
@@ -11,8 +12,10 @@ import Pai from "./components/Indireta/Pai";
 
 export default () => (
   <View style={styles.container}>
-    <Pai />
+    <ContadorV2 />
+
     {/*
+    <Pai />
     <Contador inicial={10} />
     <Contador inicial={20} passo={20} />
     <Contador inicial={3} />
