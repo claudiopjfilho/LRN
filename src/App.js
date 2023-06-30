@@ -1,7 +1,8 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import ContadorV2 from "./components/contador/ContadorV2";
+import ParImpar from "./components/ParImpar";
+//import ContadorV2 from "./components/contador/ContadorV2";
 //import Pai from "./components/Indireta/Pai";
 //import Pai from "./components/Direta/Pai";
 //import Primeiro from "./components/Primeiro";
@@ -12,9 +13,10 @@ import ContadorV2 from "./components/contador/ContadorV2";
 
 export default () => (
   <View style={styles.container}>
-    <ContadorV2 />
+    <ParImpar num={3} />
 
     {/*
+    <ContadorV2 />
     <Pai />
     <Contador inicial={10} />
     <Contador inicial={20} passo={20} />
